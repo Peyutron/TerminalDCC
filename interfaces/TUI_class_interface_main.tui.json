@@ -1,0 +1,415 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    1,
+    1
+   ],
+   "Size": [
+    145,
+    36
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     145,
+     36
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkWindow",
+     "params": {
+      "Name": "TTkWindow",
+      "Position": [
+       3,
+       0
+      ],
+      "Size": [
+       111,
+       32
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": "",
+      "Window Flags": 134217728
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        109,
+        30
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkContainer",
+        "params": {
+         "Name": "containerloco",
+         "Position": [
+          0,
+          2
+         ],
+         "Size": [
+          47,
+          23
+         ],
+         "Min Width": 0,
+         "Min Height": 0,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Padding": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "Layout": "TTkLayout"
+        },
+        "layout": {
+         "class": "TTkLayout",
+         "params": {
+          "Geometry": [
+           0,
+           0,
+           47,
+           23
+          ]
+         },
+         "children": []
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkContainer",
+        "params": {
+         "Name": "containerlist",
+         "Position": [
+          47,
+          2
+         ],
+         "Size": [
+          61,
+          23
+         ],
+         "Min Width": 0,
+         "Min Height": 0,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Padding": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "Layout": "TTkLayout"
+        },
+        "layout": {
+         "class": "TTkLayout",
+         "params": {
+          "Geometry": [
+           0,
+           0,
+           61,
+           23
+          ]
+         },
+         "children": []
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkContainer",
+        "params": {
+         "Name": "containercomm",
+         "Position": [
+          0,
+          25
+         ],
+         "Size": [
+          108,
+          5
+         ],
+         "Min Width": 0,
+         "Min Height": 0,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Padding": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "Layout": "TTkLayout"
+        },
+        "layout": {
+         "class": "TTkLayout",
+         "params": {
+          "Geometry": [
+           0,
+           0,
+           108,
+           5
+          ]
+         },
+         "children": [
+          {
+           "class": "TTkButton",
+           "params": {
+            "Name": "btclean",
+            "Position": [
+             55,
+             0
+            ],
+            "Size": [
+             10,
+             3
+            ],
+            "Min Width": 7,
+            "Min Height": 3,
+            "Max Width": 65536,
+            "Max Height": 65536,
+            "Visible": true,
+            "Enabled": true,
+            "ToolTip": "",
+            "Text": "Clean",
+            "Border": true,
+            "Checkable": false,
+            "Checked": false
+           },
+           "row": 0,
+           "col": 0,
+           "rowspan": 1,
+           "colspan": 1
+          },
+          {
+           "class": "TTkTextEdit",
+           "params": {
+            "Name": "textedit",
+            "Position": [
+             0,
+             0
+            ],
+            "Size": [
+             55,
+             5
+            ],
+            "Min Width": 0,
+            "Min Height": 0,
+            "Max Width": 65536,
+            "Max Height": 65536,
+            "Visible": true,
+            "Enabled": true,
+            "ToolTip": "",
+            "Line Number": true,
+            "Line Number Starting": 0,
+            "Read Only": true,
+            "Multi Line": true
+           },
+           "row": 0,
+           "col": 0,
+           "rowspan": 1,
+           "colspan": 1
+          },
+          {
+           "class": "TTkLineEdit",
+           "params": {
+            "Name": "lesendcommand",
+            "Position": [
+             67,
+             1
+            ],
+            "Size": [
+             23,
+             1
+            ],
+            "Min Width": 1,
+            "Min Height": 1,
+            "Max Width": 65536,
+            "Max Height": 1,
+            "Visible": true,
+            "Enabled": true,
+            "ToolTip": "\\x1b[32m",
+            "Input Type": 1,
+            "Echo Mode": 0,
+            "Text": ""
+            },
+           "row": 0,
+           "col": 0,
+           "rowspan": 1,
+           "colspan": 1
+          },
+          {
+           "class": "TTkButton",
+           "params": {
+            "Name": "btsendline",
+            "Position": [
+             91,
+             1
+            ],
+            "Size": [
+             11,
+             1
+            ],
+            "Min Width": 6,
+            "Min Height": 1,
+            "Max Width": 65536,
+            "Max Height": 1,
+            "Visible": true,
+            "Enabled": true,
+            "ToolTip": "",
+            "Text": "Send",
+            "Border": false,
+            "Checkable": false,
+            "Checked": false
+           },
+           "row": 0,
+           "col": 0,
+           "rowspan": 1,
+           "colspan": 1
+          }
+         ]
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "menuBar": {
+      "top": {
+       "left": [
+        {
+         "params": {
+          "Name": "menuButton",
+          "ToolTip": "",
+          "Text": "File",
+          "Checkable": false,
+          "Checked": false
+         }
+        },
+        {
+         "params": {
+          "Name": "mbAyuda",
+          "ToolTip": "",
+          "Text": "Help",
+          "Checkable": false,
+          "Checked": false
+         }
+        }
+       ],
+       "center": [
+        {
+         "params": {
+          "Name": "classcontroller",
+          "ToolTip": "",
+          "Text": "Controller",
+          "Checkable": true,
+          "Checked": false
+         }
+        },
+        {
+         "params": {
+          "Name": "classlist",
+          "ToolTip": "",
+          "Text": "List",
+          "Checkable": true,
+          "Checked": false
+         }
+        },
+        {
+         "params": {
+          "Name": "gridpanel",
+          "ToolTip": "",
+          "Text": "Panel",
+          "Checkable": true,
+          "Checked": false
+         }
+        }
+       ],
+       "right": [
+        {
+         "params": {
+          "Name": "mbnconectar",
+          "ToolTip": "",
+          "Text": "Connection OFF",
+          "Checkable": true,
+          "Checked": false
+         }
+        },
+        {
+         "params": {
+          "Name": "mbndccstart",
+          "ToolTip": "",
+          "Text": "DCC On",
+          "Checkable": true,
+          "Checked": false
+         }
+        }
+       ]
+      }
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}

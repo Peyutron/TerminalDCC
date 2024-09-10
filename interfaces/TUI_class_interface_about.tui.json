@@ -1,0 +1,123 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    9,
+    6
+   ],
+   "Size": [
+    68,
+    19
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     68,
+     19
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkWindow",
+     "params": {
+      "Name": "TTkWindow",
+      "Position": [
+       5,
+       2
+      ],
+      "Size": [
+       57,
+       13
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       3,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": "About Terminal DCC V-0.1",
+      "Window Flags": 134217728
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        55,
+        9
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkTextEdit",
+        "params": {
+         "Name": "teabout",
+         "Position": [
+          1,
+          1
+         ],
+         "Size": [
+          52,
+          7
+         ],
+         "Min Width": 0,
+         "Min Height": 0,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Line Number": false,
+         "Line Number Starting": 0,
+         "Read Only": true,
+         "Multi Line": true
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}

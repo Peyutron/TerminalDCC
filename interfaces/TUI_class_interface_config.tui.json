@@ -1,0 +1,322 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    0,
+    5
+   ],
+   "Size": [
+    75,
+    25
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     75,
+     25
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkWindow",
+     "params": {
+      "Name": "configWindow",
+      "Position": [
+       1,
+       2
+      ],
+      "Size": [
+       48,
+       17
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       3,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": "",
+      "Window Flags": 134217728
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        46,
+        13
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkLabel",
+        "params": {
+         "Name": "lbIP",
+         "Position": [
+          2,
+          1
+         ],
+         "Size": [
+          20,
+          1
+         ],
+         "Min Width": 10,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "IP Address",
+         "Color": "\u001b[0m",
+         "Alignment": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkLineEdit",
+        "params": {
+         "Name": "txtIP",
+         "Position": [
+          18,
+          1
+         ],
+         "Size": [
+          19,
+          1
+         ],
+         "Min Width": 1,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Input Type": 1,
+         "Echo Mode": 0,
+         "Text": "100.100.100.100"
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkLabel",
+        "params": {
+         "Name": "lbPort",
+         "Position": [
+          2,
+          3
+         ],
+         "Size": [
+          20,
+          1
+         ],
+         "Min Width": 4,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Port",
+         "Color": "\u001b[0m",
+         "Alignment": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkLineEdit",
+        "params": {
+         "Name": "txtPort",
+         "Position": [
+          18,
+          3
+         ],
+         "Size": [
+          13,
+          1
+         ],
+         "Min Width": 1,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Input Type": 1,
+         "Echo Mode": 0,
+         "Text": "1983"
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkCheckbox",
+        "params": {
+         "Name": "cbList",
+         "Position": [
+          2,
+          7
+         ],
+         "Size": [
+          24,
+          1
+         ],
+         "Min Width": 24,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": " Show list at startup",
+         "Tristate": false,
+         "Checked": false,
+         "Check State": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkCheckbox",
+        "params": {
+         "Name": "cbController",
+         "Position": [
+          2,
+          5
+         ],
+         "Size": [
+          30,
+          1
+         ],
+         "Min Width": 30,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": " Show controller at startup",
+         "Tristate": false,
+         "Checked": false,
+         "Check State": 0
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btCancelar",
+         "Position": [
+          29,
+          11
+         ],
+         "Size": [
+          14,
+          1
+         ],
+         "Min Width": 8,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Cerrar",
+         "Border": false,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btAceptar",
+         "Position": [
+          15,
+          11
+         ],
+         "Size": [
+          14,
+          1
+         ],
+         "Min Width": 9,
+         "Min Height": 1,
+         "Max Width": 65536,
+         "Max Height": 1,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Aceptar",
+         "Border": false,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}

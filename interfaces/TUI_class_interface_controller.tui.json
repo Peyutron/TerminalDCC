@@ -1,0 +1,322 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    1,
+    1
+   ],
+   "Size": [
+    46,
+    23
+   ],
+   "Min Width": 10,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     46,
+     23
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkSlider",
+     "params": {
+      "Name": "slSpeed",
+      "Position": [
+       5,
+       3
+      ],
+      "Size": [
+       1,
+       13
+      ],
+      "Min Width": 1,
+      "Min Height": 3,
+      "Max Width": 1,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Orientation": 12,
+      "Value": 0,
+      "Minimum": 0,
+      "Maximum": 126,
+      "Single Step": 1,
+      "Page Step": 10
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkFrame",
+     "params": {
+      "Name": "TTkFrame",
+      "Position": [
+       3,
+       17
+      ],
+      "Size": [
+       40,
+       5
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": ""
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        38,
+        3
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btReverse",
+         "Position": [
+          1,
+          0
+         ],
+         "Size": [
+          13,
+          3
+         ],
+         "Min Width": 9,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Reverse",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btStop",
+         "Position": [
+          14,
+          0
+         ],
+         "Size": [
+          10,
+          3
+         ],
+         "Min Width": 6,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Stop",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btForward",
+         "Position": [
+          24,
+          0
+         ],
+         "Size": [
+          13,
+          3
+         ],
+         "Min Width": 9,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Forward",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkLabel",
+     "params": {
+      "Name": "lbSpeed",
+      "Position": [
+       9,
+       4
+      ],
+      "Size": [
+       6,
+       1
+      ],
+      "Min Width": 5,
+      "Min Height": 1,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Text": "Label",
+      "Color": "\u001b[0m",
+      "Alignment": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkLabel",
+     "params": {
+      "Name": "lbDirection",
+      "Position": [
+       9,
+       5
+      ],
+      "Size": [
+       6,
+       1
+      ],
+      "Min Width": 5,
+      "Min Height": 1,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Text": "Label",
+      "Color": "\u001b[0m",
+      "Alignment": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkList",
+     "params": {
+      "Name": "lsLocomotive",
+      "Position": [
+       19,
+       3
+      ],
+      "Size": [
+       23,
+       13
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Selection Mode": 1,
+      "DnD Mode": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkLabel",
+     "params": {
+      "Name": "lbTitle",
+      "Position": [
+       4,
+       1
+      ],
+      "Size": [
+       20,
+       1
+      ],
+      "Min Width": 0,
+      "Min Height": 1,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Text": "",
+      "Color": "\u001b[0m",
+      "Alignment": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}

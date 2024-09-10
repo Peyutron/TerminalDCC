@@ -1,0 +1,438 @@
+{
+ "type": "TTkUi/Document",
+ "version": "2.0.2",
+ "tui": {
+  "class": "TTkContainer",
+  "params": {
+   "Name": "MainWindow",
+   "Position": [
+    1,
+    1
+   ],
+   "Size": [
+    75,
+    20
+   ],
+   "Min Width": 0,
+   "Min Height": 0,
+   "Max Width": 65536,
+   "Max Height": 65536,
+   "Visible": true,
+   "Enabled": true,
+   "ToolTip": "",
+   "Padding": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "Layout": "TTkLayout"
+  },
+  "layout": {
+   "class": "TTkLayout",
+   "params": {
+    "Geometry": [
+     0,
+     0,
+     75,
+     20
+    ]
+   },
+   "children": [
+    {
+     "class": "TTkFrame",
+     "params": {
+      "Name": "TTkFrame",
+      "Position": [
+       1,
+       0
+      ],
+      "Size": [
+       16,
+       19
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Padding": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "Layout": "TTkLayout",
+      "Border": true,
+      "Title": ""
+     },
+     "layout": {
+      "class": "TTkLayout",
+      "params": {
+       "Geometry": [
+        0,
+        0,
+        14,
+        17
+       ]
+      },
+      "children": [
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btPlan",
+         "Position": [
+          -1,
+          -1
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 5,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Plan",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btLevel",
+         "Position": [
+          -1,
+          1
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 7,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Level",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btLocomotives",
+         "Position": [
+          -1,
+          3
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 13,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Locomotives",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btTurnouts",
+         "Position": [
+          -1,
+          5
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 11,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Turnout's",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btTrack",
+         "Position": [
+          -1,
+          5
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 7,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Traks",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btText",
+         "Position": [
+          -1,
+          7
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 6,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Text",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btBlock",
+         "Position": [
+          -1,
+          9
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 9,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Block's",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btSignals",
+         "Position": [
+          -1,
+          11
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 9,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Signals",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btSensors",
+         "Position": [
+          -1,
+          13
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 9,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Sensors",
+         "Border": true,
+         "Checkable": false,
+         "Checked": false
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       },
+       {
+        "class": "TTkButton",
+        "params": {
+         "Name": "btOuts",
+         "Position": [
+          -1,
+          15
+         ],
+         "Size": [
+          15,
+          3
+         ],
+         "Min Width": 10,
+         "Min Height": 3,
+         "Max Width": 65536,
+         "Max Height": 65536,
+         "Visible": true,
+         "Enabled": true,
+         "ToolTip": "",
+         "Text": "Output's",
+         "Border": true,
+         "Checkable": false,
+         "Checked": true
+        },
+        "row": 0,
+        "col": 0,
+        "rowspan": 1,
+        "colspan": 1
+       }
+      ]
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkList",
+     "params": {
+      "Name": "lista1",
+      "Position": [
+       18,
+       1
+      ],
+      "Size": [
+       17,
+       17
+      ],
+      "Min Width": 0,
+      "Min Height": 0,
+      "Max Width": 65534,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "",
+      "Selection Mode": 1,
+      "DnD Mode": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    },
+    {
+     "class": "TTkLabel",
+     "params": {
+      "Name": "txtShow",
+      "Position": [
+       36,
+       1
+      ],
+      "Size": [
+       38,
+       17
+      ],
+      "Min Width": 0,
+      "Min Height": 1,
+      "Max Width": 65536,
+      "Max Height": 65536,
+      "Visible": true,
+      "Enabled": true,
+      "ToolTip": "\ud83d\ude03",
+      "Text": "",
+      "Color": "\u001b[0m",
+      "Alignment": 0
+     },
+     "row": 0,
+     "col": 0,
+     "rowspan": 1,
+     "colspan": 1
+    }
+   ]
+  }
+ },
+ "connections": []
+}

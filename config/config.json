@@ -1,0 +1,8 @@
+{
+    "file_config": "config/config.json",
+    "file_plan": "config/plan.xml",
+    "ip": "192.168.1.59",
+    "port": 2560,
+    "showcontroller": 2,
+    "showlist": 0
+}

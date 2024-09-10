@@ -1,0 +1,4 @@
+pillow==10.4.0
+pyperclip==1.9.0
+pyTermTk==0.40.0a1
+ttkDesigner==0.40.0a2
