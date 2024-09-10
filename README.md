@@ -3,22 +3,22 @@ Creado con <a href="https://github.com/ceccopierangiolieugenio/pyTermTk" >pyTerm
 
 Compatible con las centrales DCC <a href="https://github.com/Peyutron/DCCpp_LMD" >DCCpp LMD</a> y <a href="https://github.com/DCC-EX/CommandStation-EX" >DCC EX</a>.
 
-**Base de datos:**
+###Base de datos:
 Archivo .xml generado por Rocrail
 
-**Comunicación:**
+###Comunicación:
 Socket wifi python3
 
 <br>
-**Pantalla principal:**
+###Pantalla principal:
 <img src="https://github.com/Peyutron/TerminalDCC/blob/main/images/TermDcc_main_00.png" height="320" />
 <br>
-**Pantalla configuración:**
+###Pantalla configuración:
 <img src="https://github.com/Peyutron/TerminalDCC/blob/main/images/TermDcc_Config_00.png" height="320" />
 <br>
-**Abrir archivo XML**
+###Abrir archivo XML
 <img src="https://github.com/Peyutron/TerminalDCC/blob/main/images/TermDcc_openfile_00.png" height="320" />
 <br>
-**Terminal DCC conectado con central DCC**
+###Terminal DCC conectado con central DCC
 <img src="https://github.com/Peyutron/TerminalDCC/blob/main/images/TermDcc_running_00.png" height="320" />
 <br>
